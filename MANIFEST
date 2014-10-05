@@ -1,8 +1,9 @@
-Changes
-MANIFEST
-Makefile.PL
-README
-lib/AudioFile/Find.pm
 bin/findaudio
-t/00-load.t
-META.yml                                 Module meta-data (added by MakeMaker)
+Changes
+lib/AudioFile/Find.pm
+Makefile.PL
+MANIFEST			This list of files
+README.pod
+t/basic.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

@@ -1,15 +1,26 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         AudioFile-Find
-version:      0.01
-version_from: lib/AudioFile/Find.pm
-installdirs:  site
+---
+abstract: 'Finds audio files located on your system and maps them to L<AudioFile::Info> objects. '
+author:
+  - 'Markus <holli.holzer@googlemail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.140640'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: AudioFile-Find
+no_index:
+  directory:
+    - t
+    - inc
 requires:
-    AudioFile::Info:               1.09
-    AudioFile::Info::Audio::WMA:   0.1
-    AudioFile::Info::MP3::Info:    1.04
-    AudioFile::Info::Ogg::Vorbis::Header::PurePerl: 1.05
-    Test::More:                    0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30
+  AudioFile::Info: '1.09'
+  File::Find::Rule: '0'
+  List::MoreUtils: '0'
+  Test::More: '0'
+  YAML: '0'
+version: '0.02'
